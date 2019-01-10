@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-logical-order",
+  "version": "0.0.1",
+  "description": "Check and fix the order of your css",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "css",
+    "order",
+    "logic"
+  ],
+  "author": "Sil van Diepen",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^7.0.0 || ^8.0.0"
+  }
+}
