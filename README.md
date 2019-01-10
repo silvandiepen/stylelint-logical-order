@@ -99,7 +99,6 @@ yarn add --dev stylelint stylelint-logical-order
 ```javascript
 {
   "extends": [
-    // "stylelint-config-standard",
     "stylelint-logical-order"
   ]
 }
