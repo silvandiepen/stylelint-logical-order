@@ -94,7 +94,7 @@ const border = [
 	'outline-offset'
 ];
 	
-const sizing = [
+const spacing = [
   'margin',
   'margin-top',
   'margin-right',
@@ -233,6 +233,12 @@ const animation = [
   'animation-fill-mode',
   'will-change',
 ];
+const svg = [
+  'fill',
+  'fill-rule',
+  'clip-rule',
+  'stroke',
+];
 const misc = [
   'counter-reset',
   'counter-increment',
@@ -248,12 +254,6 @@ const misc = [
   'touch-action',
   'zoom',
 ];
-const svg = [
-  'fill',
-  'fill-rule',
-  'clip-rule',
-  'stroke',
-];
 const logical = [
   ...special,
   ...position,
@@ -266,8 +266,8 @@ const logical = [
   ...background,
   ...transform,
   ...animation,
-  ...misc,
   ...svg,
+  ...misc,
 ];
 
 module.exports = {
