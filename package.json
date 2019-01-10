@@ -1,6 +1,6 @@
 {
   "name": "stylelint-logical-order",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check and fix the order of your css",
   "main": "main.js",
   "scripts": {
