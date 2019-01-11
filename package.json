@@ -14,6 +14,6 @@
   "author": "Sil van Diepen",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "^7.0.0 || ^8.0.0"
+    "stylelint": "^7.0.0 || ^8.0.0 || ^9.0.0"
   }
 }
