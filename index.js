@@ -286,7 +286,6 @@ const visibility = [
 	'overflow-y',
 	'overflow-wrap',
 	'visibility',
-	'opacity',
 	'filter',
 	'backdrop-filter',
 	'appearance',
@@ -301,7 +300,9 @@ const visibility = [
 	'mask-position',
 	'mask-repeat',
 	'mask-size',
-	'mask-type'
+	'mask-type',
+	'mix-blend-mode',
+	'opacity'
 ];
 const animation = [
 	'transition',
