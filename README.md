@@ -96,6 +96,43 @@ yarn add --dev stylelint stylelint-logical-order
 }
 ```
 
+Extended version with more settings
+
+```javascript
+"stylelint": {
+		"rules": {
+			"at-rule-no-unknown": [
+				true,
+				{
+					"ignoreAtRules": [
+						"if",
+						"for",
+						"import",
+						"else",
+						"each",
+						"mixin",
+						"include",
+						"content",
+						"extend",
+						"at-root"
+					]
+				}
+			],
+			"order/order": [
+				"custom-properties",
+				"dollar-variables",
+				"declarations",
+				"rules"
+			],
+			"indentation": "tab"
+		},
+		"extends": [
+			"stylelint-logical-order"
+		]
+	}
+```
+
+
 ## Credits
 
 [npm-url]: https://www.npmjs.com/package/stylelint-logical-order
