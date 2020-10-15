@@ -362,6 +362,13 @@ const scroll = [
 	"scroll-snap-type",
 	"scrollbar-color",
 	"scrollbar-width",
+	"scrollbar-3dlight-color",
+	"scrollbar-arrow-color",
+	"scrollbar-darkshadow-color",
+	"scrollbar-face-color",
+	"scrollbar-highlight-color",
+	"scrollbar-shadow-color",
+	"scrollbar-track-color"
 ];
 const misc = [
 	"cursor",
